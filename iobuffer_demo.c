@@ -1,7 +1,7 @@
 //
 // host buffer I/O demo
 //
-#include "cl_comm_func.h"
+#include "opencl_helper.h"
 #include <stdlib.h>
 
 #define MAX_XOR_DATACOUNT (1024)
