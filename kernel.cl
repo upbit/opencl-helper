@@ -17,6 +17,5 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 __kernel void xor(__global unsigned int *input, __global unsigned int *output, const unsigned int value)
 {
   uint idx = get_global_id(0);
-  
   output[idx] = input[idx] ^ value;
 }
